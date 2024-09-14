@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/img/background.jpg);
+}
+
+.index {
+    position: relative;
+}
+
+.salogo {
+    position: absolute;
+    left: 50%;
+    /* Đặt phần tử con ở vị trí giữa theo chiều ngang */
+    transform: translateX(-50%);
+    /* Dịch chuyển nó ngược lại 50% chiều rộng */
+}
+
+.siggie {
+    margin-top: 250px;
+    position: absolute;
+    left: 50%;
+    /* Đặt phần tử con ở vị trí giữa theo chiều ngang */
+    transform: translateX(-50%);
+    /* Dịch chuyển nó ngược lại 50% chiều rộng */
+}

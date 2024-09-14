@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    height: 800px;
+    width: 1089px;
+    margin: auto;
+}
+/*-----------------------header------------------------*/
+.head {
+    height: 150px;
+}
+header{
+    background-image: url(/img/background.png);
+    height: 100px;
+    width: 1089px;
+    display: flex;
+    align-items: center;
+}
+header img {
+    width: 70px;
+    margin-left: 30px;
+}
+header h1,h3 {
+    color: white;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+nav {
+    background-color: rgb(77, 75, 75);
+    height: 30px;
+    width: 1089px;  
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    padding-left: 40px;
+}
+nav li {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 4px;
+}
+nav #white {
+    color: white;
+}
+/*-----------------------section------------------------*/
+section {
+    height: 300px;
+    padding-left: 0;
+    float: left;
+    width: 69%;
+}
+.art1, .art2 {
+    padding: 20px;
+    float: left;
+}
+.img {
+    border: 1px solid rgb(136, 31, 31);
+    padding: 5px 5px;
+    margin: 3px 3px;
+    float: left;
+}
+.text {
+    width: 39%;
+    margin-left: 30px;
+    margin-top: 50px;
+    text-align: justify;
+    float: left;
+}
+.text h4 {
+    color: red;
+}
+/*-----------------------diliver------------------------*/
+.diliver {
+    width: 10px;
+    height: 700px;
+    color: black;
+    float: left;
+}
+.hr {
+    width: 1px;
+    height: 600px;
+    float: left;
+}
+/*-----------------------aside------------------------*/
+.aside {
+    height: 500px;
+    width: 28%;
+    float: right;
+    margin-top: 35px;
+
+}
+aside h1 {
+    font-size: 25px;
+    color: rgb(233, 49, 110);
+    margin-bottom: 25px;
+}
+.section1 p {
+    color: rgb(233, 49, 110);
+    margin-top: 15px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+.section1 hr {
+    width: 90%;
+}
+/*-----------------------footer------------------------*/
+footer {
+    height: 30px;
+    background-color: rgba(86, 71, 71, 0.401);
+    width: 100%;
+    margin-top: 600px;
+}
+footer p {
+    margin-left: 20px;
+    padding-top: 5px;
+}
+/*-----------------------dinhdang------------------------*/
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    section, aside {
+        width: 100%;
+        float: none;
+    }
+}

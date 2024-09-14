@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 800px;
+    height: 600px;
+    margin: auto;
+}
+
+
+/*-----------------------header------------------------*/
+
+.head {
+    height: 70px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 30px;
+    margin-bottom: 3px;
+}
+
+.diliver {
+    background-color: rgb(255, 111, 0);
+    height: 3px;
+}
+
+
+/*-----------------------content------------------------*/
+
+.content {
+    float: left;
+    width: 800px;
+}
+
+nav {
+    background-image: url(/img/back.jpg);
+    border: 1px solid white;
+    float: left;
+    width: fit-content;
+    padding-left: 10px;
+    width: 23.5%;
+    height: 600px;
+    margin-right: 5px;
+}
+
+nav p {
+    margin: 6px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav hr {
+    border: none;
+    border-top: 2px dashed rgb(202, 130, 43);
+    height: 0px;
+    width: 150px;
+}
+
+.getting {
+    padding: 15px;
+}
+
+.getting p {
+    text-align: justify;
+    margin-right: 20px;
+}
+
+h2 {
+    color: rgb(255, 111, 0);
+    margin-bottom: 15px;
+}
+
+.border {
+    border-top: 5px solid rgb(255, 157, 0);
+    border-left: 5px solid rgb(255, 157, 0);
+    border-right: 5px solid rgb(138, 91, 15);
+    border-bottom: 5px solid rgb(138, 91, 15);
+    background-color: rgba(255, 255, 0, 0.19);
+    width: fit-content;
+    float: right;
+    display: flexbox;
+    margin-top: px;
+    justify-content: center;
+}
+
+.border ul {
+    margin: 14px 20px;
+    padding-left: 30px;
+}
+
+.preserving-text2 {
+    margin-top: 40px;
+}
+
+
+/*-----------------------footer------------------------*/
+
+footer {
+    margin: 15px;
+    text-transform: uppercase;
+    color: rgb(255, 111, 0);
+    text-align: center;
+}
+
+.hrft {
+    height: 3px;
+    background-color: rgb(255, 111, 0);
+}
